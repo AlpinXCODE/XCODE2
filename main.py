@@ -1,21 +1,6 @@
-import os
-try:
-    import requests
-except ImportError:
-    print '\n [×] Modul requests belum terinstall!...\n'
-    os.system('pip2 install requests')
+By alpin
 
-try:
-    import concurrent.futures
-except ImportError:
-    print '\n [×] Modul Futures belum terinstall!...\n'
-    os.system('pip2 install futures')
 
-try:
-    import bs4
-except ImportError:
-    print '\n [×] Modul Bs4 belum terinstall!...\n'
-    os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
