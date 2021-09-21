@@ -1,7 +1,3 @@
-By alpin
-
-
-
 import requests, os, re, bs4, sys, json, time, random, datetime
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
 from datetime import datetime
